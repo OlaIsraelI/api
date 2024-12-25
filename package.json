@@ -1,0 +1,22 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "a simple blog api with oauth2 aunthentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "author": "Ola Israel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
